@@ -40,6 +40,12 @@ or
 ```
 Get-DirectorySize.ps1 -Path $HOME\Documents
 ```
+## Clear-RdpHistory.ps1
+
+The purpose of this script is to remove history of all previous RDP sessions for the current user. It is a simple script that requires no parameters. It will delete all history **with no warming**.
+```
+Clear-RdpHistory.ps1
+```
 ## Authors
 
 * **Doron Chosnek** - *Initial work* - [GitHub](https://github.com/dchosnek)
